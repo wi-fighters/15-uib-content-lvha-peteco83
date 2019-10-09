@@ -1,3 +1,15 @@
+header {
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+li, p {
+  font-size: 20px;
+}
+
 /* Task 1 */
 a:link {
   background-color: black;
@@ -14,18 +26,32 @@ a:hover {
 a:active {
   background-color: red;
 }
+
 /* Task 2 */
+button:hover {
+  background-color: #26589F;
+  color: white;
+}
+
+button:active {
+  background-color: white;
+  color: #26589F;
+}
+
+/* Task 3 */
 p:first-letter {
   color: blueviolet;
 }
-/* Task 3 */
-h2 + p::first-line {
+
+/* Task 4 */
+h2+p::first-line {
   color: red;
 }
-/* Task 4 */
-input:hover {
-  background-color: red;
-}
-input:focus {
-  background-color: aqua;
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid black;
+  color: black;
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 16px;
 }
