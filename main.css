@@ -20,9 +20,33 @@ button {
 
 
 /* Task 1 */
+a:link {
+  color: green
+}
 
+a:visited{
+  color: violet
+}
+
+a:hover { 
+  font-weight: bold;
+}
+
+a:active {
+  font-style: italic;
+}
 /* Task 2 */
+button:hover {
+  background-color: grey;
+} 
 
 /* Task 3 */
-
+p::first-letter {
+  color: red;
+}
 /* Task 4 */
+
+h2+p::first-line {
+ color: indianred;
+
+}
